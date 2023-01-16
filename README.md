@@ -22,10 +22,10 @@ python manage.py runserver
 4. Open http://localhost:8000 to view the chat app in your browser.
 
 ## Features
-Real-time chat using Django
-User authentication and authorization
-group chat functionality
-User typing indicator
+1. Real-time chat using Django
+2. User authentication and authorization
+3. group chat functionality
+4. User typing indicator
 
 ## Built With
 1. Django 
