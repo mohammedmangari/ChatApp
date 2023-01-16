@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Mchat</title>
+    <style>
+     body{
+         background-color:#64618B;
+      }
+      #bu{
+        background-color: #6CA6CA;
+      }
+      
+    #Library {
+    height: 70px;
+    width: 120px;
+}
+
+
+    </style>
+</head>
+<body>
+ 
+    <nav class="navbar bg-light nv">
+        <div  class=" d-flex  flex-row container-fluid">
+            <img src="Logo1.png" alt="none" width="70px">
+          <div class="d-flex">
+            
+            <div>
+                <a href="room.html" class="p-3">
+                <img src="Icon.png" width="20px">
+                </a>
+           </div>
+            
+          </div>
+        </div>
+      </nav>
+      
+      <form class="p-5">
+        <div class=" d-flex, my-3" style="padding: 50 700 50 100 ; margin-left: 25% ;margin-right:25% ;">
+          <label for="exampleInputPassword1" class="form-label" style="font-style:oblique; font-size: large;">il y a du nouveau ?</label>
+          <input type="file" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="d-flex, my-3" style="padding: 50 700 50 100; margin-left:25%; margin-right:25% ;">
+        <button id="bu" type="submit" class="btn btn-primary" style="font-style:oblique; font-size: large; color: black;">Poster</button>
+        </div>
+      </form>
+      <div id="test" style="margin-left: 35%; margin-right: 25%;" class="Library" onclick="test()" >
+          <img src="télécharger.jpg" alt="none">
+      </div>
+</body>
+</html>

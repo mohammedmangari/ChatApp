@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Mchat</title>
+    <style>
+  body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  background-color: #64618b;
+}
+
+.container {
+  border: 2px solid #64618b;
+  background-color: #64618b;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker:hover{
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row m-5">
+            <div style="margin-left:25% ; margin-top: 10%; ">
+                <h1 >
+                    Medman Chat
+                </h1>
+            </div>
+    <form  method="POST" action="check">
+    {% csrf_token %}
+        <div class="mb-3"  >
+          <label class="form-label">Rome Name</label>
+          <input type="text" class="form-control" id="room_name"  name="room_name" >
+          
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Username</label>
+          <input type="text" class="form-control" id="username" name="username">
+        </div>
+       
+        <button type="submit" class="btn btn-primary" value="Enter Room">Submit</button>
+      </form>
+    </div>
+    </div>
+</body>
+</html>
