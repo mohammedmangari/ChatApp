@@ -2,7 +2,7 @@
 
 ##  Django and AJAX Chat App
 
-    A simple chat application built with Django and AJAX.
+ A simple chat application built with Django and AJAX.
 
 
 1. Prerequisites
@@ -12,7 +12,8 @@ jQuery
 Installing
 
 2. Clone the repository to your local machine:
-git clone https://github.com/mohammedmangari/django-ajax-chat-app.git
+    
+   git clone https://github.com/mohammedmangari/django-ajax-chat-app.git
 
 
 3. Run the development server:
