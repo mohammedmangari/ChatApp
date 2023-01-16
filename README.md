@@ -28,5 +28,5 @@ group chat functionality
 User typing indicator
 
 ## Built With
-Django 
-Ajax
+1. Django 
+2. Ajax
