@@ -13,7 +13,7 @@ Installing
 
 2. Clone the repository to your local machine:
     
-   git clone https://github.com/mohammedmangari/django-ajax-chat-app.git
+   git clone https://github.com/mohammedmangari/ChatApp.git
 
 
 3. Run the development server:
