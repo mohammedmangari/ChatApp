@@ -26,7 +26,7 @@ python manage.py runserver
 1. Real-time chat using Django
 2. User authentication and authorization
 3. group chat functionality
-4. User typing indicator
+
 
 ## Built With
 1. Django 
