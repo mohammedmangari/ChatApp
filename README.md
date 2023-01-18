@@ -6,28 +6,28 @@
 
 
 1. Prerequisites
-Python 3.x
-Django 3.x
-jQuery
+    - Python 3.x
+    - Django 3.x
+    - jQuery
 Installing
 
 2. Clone the repository to your local machine:
     
-   git clone https://github.com/mohammedmangari/ChatApp.git
+    - git clone https://github.com/mohammedmangari/ChatApp.git
 
 
 3. Run the development server:
 
-python manage.py runserver
+    - python manage.py runserver
 
 4. Open http://localhost:8000 to view the chat app in your browser.
 
 ## Features
-1. Real-time chat using Django
-2. User authentication and authorization
-3. group chat functionality
+    - Real-time chat using Django
+    - User authentication and authorization
+    - group chat functionality
 
 
 ## Built With
-1. Django 
-2. Ajax
+    - Django 
+    - Ajax
